@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Photos from './components/Photos';
+import Videos from './components/Videos';
+import Blog from './components/Blog';
+import Prints from './components/Prints';
+import About from './components/About';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 className="website-heading">chrismeissner.com</h1>
+      <main>
+        <Photos></Photos>
+        <Videos></Videos>
+        <Blog></Blog>
+        <Prints></Prints>
+        <About></About>
+      </main>
     </div>
   );
 }
