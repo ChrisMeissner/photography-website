@@ -1,11 +1,11 @@
 import React from 'react';
+import '../../components/shared-styles.css';
 
-function Photos() {
+function Photos(){
   return (
-    <section>
-      <div class="section-header-bumper"></div>
-      <h1 id="photos" class="section-header">Photography</h1>
-    </section>
+    <div className="component-wrapper">
+      <h1 className="component-header">Photography</h1>
+    </div>
   );
 }
 

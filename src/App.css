@@ -14,10 +14,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  z-index: 0;
+  z-index: 999;
   position: fixed;
   width: 100%;
   background-color: black;
+  height: 10%;
 }
 
 .header-link {
@@ -35,16 +36,17 @@
   color: white;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 50%;
-  padding-right: 5px;
+  padding-right: 10px;
+  text-align: center;
 }
 
 .nav-link {
   text-decoration: none;
   color: white;
-  width: 10%;
 }
+
 
 

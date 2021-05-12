@@ -1,10 +1,11 @@
 import React from 'react';
+import '../../components/shared-styles.css';
 
 function Videos() {
   return (
-    <section>
-      <h1 id="videos" class="section-header">Videos</h1>
-    </section>
+    <div className="component-wrapper">
+      <h1 className="component-header">Videos</h1>
+    </div>
   );
 }
 

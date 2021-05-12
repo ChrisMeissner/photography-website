@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../components/shared-styles.css';
 
 function Home() {
   return (

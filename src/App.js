@@ -18,14 +18,17 @@ class App extends Component {
                 <Link className="nav-link" to="/photos">Photos</Link>
                 <Link className="nav-link" to="/videos">Videos</Link>
                 <Link className="nav-link" to="/blog">Blog</Link>
+                <Link className="nav-link" to="/prints">Prints</Link>
                 <Link className="nav-link" to="/about">About</Link>
               </nav>
             </div>
             <div className="featured-photo"></div>
             <Switch>
-              <Route exact path='/photos' component={Photos}>Photos</Route>
-              <Route exact path='/videos' component={Videos}>Videos</Route>
-              <Route exact path='/about' component={About}>About</Route>
+              <Route exact path='/photos'> <Photos/> </Route>
+              <Route exact path='/videos'> <Videos/> </Route>
+              <Route exact path='/blog'> <Blog/> </Route>
+              <Route exact path='/prints'> <Prints/> </Route>
+              <Route exact path='/about'> <About/></Route>
             </Switch>
           </div>
        </Router>

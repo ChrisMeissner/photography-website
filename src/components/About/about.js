@@ -1,10 +1,11 @@
 import React from 'react';
+import '../../components/shared-styles.css';
 
 function About() {
   return (
-    <section>
-      <h1 id="about" class="section-header">About</h1>
-    </section>
+    <div className="component-wrapper">
+      <h1 className="component-header">About</h1>
+    </div>
   );
 }
 

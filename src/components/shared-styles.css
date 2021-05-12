@@ -1,0 +1,10 @@
+.component-wrapper {
+  width: 100%;
+}
+
+.component-header {
+  padding: 6% 0 0 0;
+  font-size: 100px;
+  color: black;
+  text-align: center;
+}

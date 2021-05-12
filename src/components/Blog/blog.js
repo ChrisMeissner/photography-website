@@ -1,10 +1,11 @@
 import React from 'react';
+import '../../components/shared-styles.css';
 
 function Blog() {
   return (
-    <section>
-      <h1 id="blog" class="section-header">Photo Blog</h1>
-    </section>
+    <div className="component-wrapper">
+      <h1 className="component-header">Blog</h1>
+    </div>
   );
 }
 
