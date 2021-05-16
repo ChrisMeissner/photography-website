@@ -48,5 +48,91 @@
   color: white;
 }
 
+.polaroid-container {
+  padding: 8% 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 
+.polaroid:hover {
+  width: 35%;
+  z-index: 2;
+  position: fixed;
+}
 
+.polaroid {
+  width: 35%;
+  z-index: 3;
+  position: fixed;
+}
+
+.footer {
+  margin: 5% 0 0 0;
+  font: 5px;
+  color: black;
+  text-align: center;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    *{
+      margin: 0;
+    }
+
+    .app-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    .app-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      z-index: 999;
+      position: fixed;
+      width: 100%;
+      background-color: black;
+      height: 10%;
+    }
+
+    .header-link {
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      color: white;
+      font-size: 40px;
+    }
+
+    .app-nav {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18.5px;
+      text-decoration: none;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      text-align: center;
+    }
+
+    .nav-link {
+      text-decoration: none;
+      color: white;
+    }
+
+    .footer {
+      margin: 5% 0 0 0;
+      font: 5px;
+      color: black;
+      text-align: center;
+    }
+}

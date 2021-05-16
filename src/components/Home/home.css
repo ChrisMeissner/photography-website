@@ -1,0 +1,25 @@
+.polaroid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.polaroid-white {
+  width: 35%;
+  opacity: 1;
+  transition: opacity .75s ease-in-out;
+   -moz-transition: opacity .75s ease-in-out;
+   -webkit-transition: opacity .75s ease-in-out;
+}
+
+.polaroid-white:hover {
+  opacity: 0;
+}
+
+.polaroid-developed {
+  width: 35%;
+  z-index: -2;
+  position: absolute;
+}

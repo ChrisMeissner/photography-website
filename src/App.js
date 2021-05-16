@@ -5,7 +5,9 @@ import Blog from './components/Blog/blog';
 import Photos from './components/Photos/photos';
 import Prints from './components/Prints/prints';
 import Videos from './components/Videos/videos';
+import Home from './components/Home/home';
 import './App.css';
+import './components/shared-styles.css';
   
 class App extends Component {
   render() {
@@ -22,14 +24,15 @@ class App extends Component {
                 <Link className="nav-link" to="/about">About</Link>
               </nav>
             </div>
-            <div className="featured-photo"></div>
             <Switch>
+              <Route exact path='/'> <Home/> </Route>
               <Route exact path='/photos'> <Photos/> </Route>
               <Route exact path='/videos'> <Videos/> </Route>
               <Route exact path='/blog'> <Blog/> </Route>
               <Route exact path='/prints'> <Prints/> </Route>
               <Route exact path='/about'> <About/></Route>
             </Switch>
+            <div className="footer">chrismeissner.com was developed by Chris Meissner &#169; 2021</div>
           </div>
        </Router>
    );
