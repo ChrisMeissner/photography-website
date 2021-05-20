@@ -166,12 +166,17 @@
   margin: 0 0 2em 0;
 }
 
+.other-services {
+  font-size: 1em;
+  text-align: center;
+}
+
 .about-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3em 0 0 0;
+  margin: 1em 0 0 0;
   width: 100%;
 }
 
@@ -228,7 +233,7 @@
     justify-content: center;
     align-items: center;
     width: 80%;
-    
+    margin: 1em 0 0 0;
   }
   
   .video-column-one {
@@ -255,7 +260,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 0 2em 0;
+    padding: 0 0 1em 0;
   }
   
   .video {
@@ -357,6 +362,11 @@
     width: 90%;
     text-align: center;
     margin: 0 0 1em 0;
+  }
+
+  .other-services {
+    text-align: center;
+    font-size: .8em;
   }
   
   .about-section {

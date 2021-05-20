@@ -70,8 +70,8 @@ function Home() {
         <div className="service-container"> 
           <div className="service"> Other Services </div>
             <div className="service-details">
-              <div className="service-item-solo">
-                film processing and scanning, <br /> full-stack web development, <br /> graphic design, photoshop, <br /> lightroom, premiere pro
+              <div className="other-services">
+                Photographic Prints <br /> (8.5 x 11 - $50 <br /> or 13 x 19 for $100) <br /> film processing and scanning, <br /> full-stack web development, <br /> graphic design. <br /> Proficient in photoshop, <br /> lightroom, and premiere pro.
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@ function Home() {
             After graduation, I worked professionally as an actor in projects such as West Side Story: in Concert with the San Francisco Symphony, 
             Frozen! Live at the Hyperion, and Grease: Live!. 
             Making photos and videos is definitely one of the most fulling parts of my life. I have a small portrait studio in my apartment where I am currently shooting. I hand-develop and scan all of my film in-house. 
-            If you have a project and need a photographer, video maker, or director, I would love to work for you! I also have a certificate in Web Development and made this website from scratch.
+            If you have a project and need a photographer, video maker, or director, I would love to work for you! I also have a certificate from UCLA Extension in Web Development and made this website from scratch.
             <br></br>
             <br></br>
             Email me at <a href="mailto:webmaster@example.com">christophermssnr@gmail.com</a> telling me about your project and I will respond with a quote! 
