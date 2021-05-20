@@ -34,12 +34,12 @@ function Home() {
         <div className="photography-service"> 
         <div className="service-category"> Photography </div>
         <div className="service-container"> 
-          <div className="service"> Medium Format Portraiture w/ Mamiya RZ67 </div>
+          <div className="service"> Medium Format Portraiture <br/> w/ Mamiya RZ67 </div>
             <div className="service-details">
               <div className="service-item">Roll of Film (10 exposures), hand-developed and scanned. In-studio or outdoor. Includes dropbox folder of your session.</div>
               <div className="price">1 for $100 or <br/>2 for $150</div>
             </div>
-          <div className="service"> Digital Portraiture w/ Canon R </div>
+          <div className="service"> Digital Portraiture <br/> w/ Canon R </div>
             <div className="service-details">
               <div className="service-item">In-studio or outdoors. Includes shoot-time, dropbox folder of session (around 60 frames per look).</div>
               <div className="price">1 look $200 or<br/>2 for $300</div>

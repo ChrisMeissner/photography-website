@@ -1,5 +1,5 @@
 .home-container {
-  margin: 6% 0 0 0;
+  margin: 2em 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,19 +23,6 @@
   border: black;
 }
 
-.photo-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
-  padding: 0 0 5% 0;
-}
-
-.photo {
-  width: 30%;
-}
-
 .photography-info-section {
   display: flex;
   flex-direction: row;
@@ -57,7 +44,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 2.5% 0 0;
+  padding: 0 1em 0 0;
 }
 
 .video-column-two {
@@ -66,7 +53,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 0 0 2.5%;
+  padding: 0 0 0 1em;
 }
 
 .video-container {
@@ -75,7 +62,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 0 5% 0;
+  padding: 0 0 2em 0;
 }
 
 .video {
@@ -90,7 +77,8 @@
   font-family: courier;
   width: 80%;
   color: white;
-  font-size: 40px;
+  font-size: 4em;
+  margin: .75em 0 0 0;
 }
 
 .photography-service {
@@ -106,7 +94,7 @@
   flex-direction: column;
   align-items: center;
   transform: rotate(270deg);
-  font-size: 20px;
+  font-size: .75em;
   width: 10%;
 }
 
@@ -115,7 +103,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 90%;
 }
 
 .service {
@@ -124,8 +112,11 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  font-size: 20px;
+  font-size: .5em;
   border: white solid 2px;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
 .service-details {
@@ -134,30 +125,41 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 0 0 2% 0;
-  font-size: 20px;
+  margin: 0 0 1em 0;
+  font-size: .5em;
   border: white solid 2px;
   border-top: none;
+  background-color: white;
+  color: black;
 }
 
 .service-item {
-  font-size: 20px;
+  font-size: 1em;
   text-align: center;
   width: 75%;
-  border-right: white solid 2px;
+  border-right: black solid 2px;
+  background-color: white;
+  color: black;
 }
 
 .price {
   text-align: center;
   width: 25%;
+  background-color: white;
+  color: black;
+  border: white solid 2px;
+
 }
 
 .service-item-solo {
+  border: white solid 2px;
   text-align: center;
+  background-color: white;
+  color: black;
 }
 
 .service-blurb {
-  font-size: 15px;
+  font-size: .5em;
   width: 90%;
   text-align: center;
 }
@@ -167,7 +169,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2.5% 0 0 0;
+  margin: 3em 0 0 0;
   width: 100%;
 }
 
@@ -177,7 +179,7 @@
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  margin: 0 0 5% 0;
+  margin: 0 0 3em 0;
 }
 
 .bio-pic {
@@ -186,37 +188,35 @@
 
 .bio {
   width: 62.3%;
-  font-size: 100%;
+  font-size: 1.25em;
   color: white;
   font-family: courier;
 }
 
-@media screen and (max-width: 480px) {
-  .photography-section {
+@media screen and (max-width: 375px) {
+  .home-container {
+    margin: 2em 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
-  .photo-row {
+
+  .photography-section {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 80%;
-    padding: 0 0 5% 0;
+    background-color: black;
   }
-  
-  .photo {
-    width: 30%;
-  }
-  
-  .photography-info-section {
+
+  .all-photos {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+    border: black;
   }
   
   .videography-section {
@@ -234,7 +234,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 2.5% 0 0;
+    padding: 0 1em 0 0;
   }
   
   .video-column-two {
@@ -243,7 +243,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 0 0 2.5%;
+    padding: 0 0 0 1em;
   }
   
   .video-container {
@@ -252,11 +252,106 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 0 5% 0;
+    padding: 0 0 2em 0;
   }
   
   .video {
     width: 100%;
+  }
+
+  .services-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: courier;
+    width: 80%;
+    color: white;
+    font-size: 4em;
+    margin: .75em 0 0 0;
+  }
+  
+  .photography-service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .service-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(270deg);
+    font-size: .75em;
+    width: 10%;
+  }
+  
+  .service-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: .5em;
+    border: white solid 2px;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .service-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 1em 0;
+    font-size: .5em;
+    border: white solid 2px;
+    border-top: none;
+    background-color: white;
+    color: black;
+  }
+  
+  .service-item {
+    font-size: 1em;
+    text-align: center;
+    width: 75%;
+    border-right: black solid 2px;
+    background-color: white;
+    color: black;
+  }
+  
+  .price {
+    text-align: center;
+    width: 25%;
+    background-color: white;
+    color: black;
+    border: white solid 2px;
+  
+  }
+  
+  .service-item-solo {
+    border: white solid 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+  }
+  
+  .service-blurb {
+    font-size: .5em;
+    width: 90%;
+    text-align: center;
   }
   
   .about-section {
@@ -264,7 +359,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2.5% 0 0 0;
+    margin: 1em 0 0 0;
     width: 100%;
   }
   
@@ -275,12 +370,12 @@
     align-items: center;
     width: 80%;
     color: white;
-    margin: 0 0 15% 0;
+    margin: 0 0 6em 0;
   }
   
   .bio-pic {
     width: 100%;
-    margin: 0 0 6% 0;
+    margin: 0 0 2em 0;
   }
   
   .bio {

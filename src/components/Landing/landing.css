@@ -30,12 +30,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    margin: 55% 0 0 0;
+    width: 100%;
+    margin: 22.5% 0 0 0;
   }
   
   .polaroid-white {
-    width: 100%;
+    width: 150%;
     opacity: 1;
     transition: opacity .75s ease-in-out;
      -moz-transition: opacity .75s ease-in-out;
@@ -47,7 +47,7 @@
   }
   
   .polaroid-developed {
-    width: 100%;
+    width: 150%;
     z-index: -2;
     position: absolute;
   }
