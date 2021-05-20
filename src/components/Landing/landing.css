@@ -1,0 +1,55 @@
+.polaroid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 10% 0 0 0;
+}
+
+.polaroid-white {
+  width: 30%;
+  opacity: 1;
+  transition: opacity .75s ease-in-out;
+   -moz-transition: opacity .75s ease-in-out;
+   -webkit-transition: opacity .75s ease-in-out;
+}
+
+.polaroid-white:hover {
+  opacity: 0;
+}
+
+.polaroid-developed {
+  width: 30%;
+  z-index: -2;
+  position: absolute;
+}
+
+@media screen and (max-width: 480px) {
+  .polaroid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 55% 0 0 0;
+  }
+  
+  .polaroid-white {
+    width: 100%;
+    opacity: 1;
+    transition: opacity .75s ease-in-out;
+     -moz-transition: opacity .75s ease-in-out;
+     -webkit-transition: opacity .75s ease-in-out;
+  }
+  
+  .polaroid-white:hover {
+    opacity: 0;
+  }
+  
+  .polaroid-developed {
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+  }
+}
