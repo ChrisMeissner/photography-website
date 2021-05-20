@@ -1,12 +1,13 @@
 .home-container {
-  margin: 2em 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .photography-section {
+  margin: 2em 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,6 +163,7 @@
   font-size: .5em;
   width: 90%;
   text-align: center;
+  margin: 0 0 2em 0;
 }
 
 .about-section {
@@ -188,18 +190,19 @@
 
 .bio {
   width: 62.3%;
-  font-size: 1.25em;
+  font-size: 1em;
   color: white;
   font-family: courier;
 }
 
 @media screen and (max-width: 375px) {
   .home-container {
-    margin: 2em 0 0 0;
+    margin: 1em 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   .photography-section {
@@ -234,7 +237,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 1em 0 0;
+    padding: 0 0 0 0;
   }
   
   .video-column-two {
@@ -243,7 +246,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 0 0 1em;
+    padding: 0 0 0 0;
   }
   
   .video-container {
@@ -267,7 +270,7 @@
     font-family: courier;
     width: 80%;
     color: white;
-    font-size: 4em;
+    font-size: 2.5em;
     margin: .75em 0 0 0;
   }
   
@@ -284,7 +287,8 @@
     flex-direction: column;
     align-items: center;
     transform: rotate(270deg);
-    font-size: .75em;
+    font-size: .5em;
+    margin: 0 0 .5em 0;
     width: 10%;
   }
   
@@ -349,9 +353,10 @@
   }
   
   .service-blurb {
-    font-size: .5em;
+    font-size: .4em;
     width: 90%;
     text-align: center;
+    margin: 0 0 1em 0;
   }
   
   .about-section {
@@ -381,6 +386,8 @@
   .bio {
     font-family: courier;
     width: 100%;
-    font-size: 100%;
+    font-size: 1.25em;
+    color: white;
+    text-decoration: none;
   }
 }

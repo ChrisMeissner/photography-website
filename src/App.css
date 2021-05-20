@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  box-sizing: border-box;
 }
 
 .app-header {
@@ -55,7 +56,7 @@
     top: 0;
     text-decoration: none;
     color: white;
-    font-size: 2.5em;
+    font-size: 2em;
   }
   
   .footer {
@@ -74,6 +75,6 @@
     z-index: 999;
     position: fixed;
     bottom: 0;
-    padding: .25em .25em;
+    padding: .25em .25em .25em .25em;
   }
 }

@@ -61,12 +61,20 @@ function Home() {
               <div className="service-item-solo">
                 Music videos are priced on an individual basis starting at $350. Includes direction meeting, shoot, and 3 rounds of edits.
               </div>
-            </div>
-        </div>
+            </div>  
+          </div>
         </div>
 
         <div className="service-blurb">**Make-up artist and hair stylist available upon request for additional charge.**</div>
 
+        <div className="service-container"> 
+          <div className="service"> Other Services </div>
+            <div className="service-details">
+              <div className="service-item-solo">
+                film processing and scanning, <br /> full-stack web development, <br /> graphic design, photoshop, <br /> lightroom, premiere pro
+              </div>
+            </div>
+          </div>
       </div>
 
 
