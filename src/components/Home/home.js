@@ -1,21 +1,7 @@
 import React from 'react';
 import './home.css';
 import ChrisPic from '../../assets/photos/chrispic.jpg';
-import Bruce from '../../assets/photos/bruce2.jpg';
-import Coby from '../../assets/photos/coby2.jpg';
-import Crudo from '../../assets/photos/crudo2.jpg';
-import Curtisandojay from '../../assets/photos/curtisandojay2.jpg';
-import Deandcharlie from '../../assets/photos/deandcharlie2.jpg';
-import Dominic from '../../assets/photos/Dominic2.jpg';
-import Emilyinyard from '../../assets/photos/emilyinyard2.jpg';
-import Fatima from '../../assets/photos/fatima-film2.jpg';
-import Keara from '../../assets/photos/keara2.jpg';
-import Noa from '../../assets/photos/Noa2.jpg';
-import Ross from '../../assets/photos/ross2.jpg';
-import Shelby from '../../assets/photos/shelby2.jpg';
-import Tayfromearth from '../../assets/photos/tayfromearth2.jpg';
-import Travis from '../../assets/photos/travis-film2.jpg';
-import Wesley from '../../assets/photos/wesley-marty2.jpg';
+import Allphotos from '../../assets/photos/Allphotosforwebsite.jpg';
 import YoutubeEmbed from '../YoutubeEmbedded.js/YoutubeEmbedded.js';
 import '../YoutubeEmbedded.js/YoutubeEmbedded.css';
 
@@ -23,44 +9,20 @@ function Home() {
   return (
     <div className="home-container">
       <div className="photography-section">
-        <div className="photo-row">
-          <img className="photo" src={Bruce} alt=""></img>
-          <img className="photo" src={Coby} alt=""></img>
-          <img className="photo" src={Crudo} alt=""></img>
-        </div>
-        <div className="photo-row">
-          <img className="photo" src={Curtisandojay} alt=""></img>
-          <img className="photo" src={Deandcharlie} alt=""></img>
-          <img className="photo" src={Dominic} alt=""></img>
-        </div>
-        <div className="photo-row">
-          <img className="photo" src={Emilyinyard} alt=""></img>
-          <img className="photo" src={Fatima} alt=""></img>
-          <img className="photo" src={Keara} alt=""></img>
-        </div>
-        <div className="photo-row">
-          <img className="photo" src={Noa} alt=""></img>
-          <img className="photo" src={Ross} alt=""></img>
-          <img className="photo" src={Shelby} alt=""></img>
-        </div>
-        <div className="photo-row">
-          <img className="photo" src={Tayfromearth} alt=""></img>
-          <img className="photo" src={Travis} alt=""></img>
-          <img className="photo" src={Wesley} alt=""></img>
-        </div>
+        <img className="all-photos" src={Allphotos} alt=""></img>
       </div>
       <div className="videography-section">
         <div className="video-column-one">
-          <div className="video-container">
-            <YoutubeEmbed embedId="KjqzgMe_JiI" />
+        <div className="video-container">
+            <YoutubeEmbed embedId="9JjT7gCLJWM" />
           </div>
           <div className="video-container">
-            <YoutubeEmbed embedId="lrinQdYoNgM" />
+            <YoutubeEmbed embedId="KjqzgMe_JiI" />
           </div>
         </div>
         <div className="video-column-two">
           <div className="video-container">
-            <YoutubeEmbed embedId="9JjT7gCLJWM" />
+            <YoutubeEmbed embedId="lrinQdYoNgM" />
           </div>
           <div className="video-container">
             <YoutubeEmbed embedId="NmoB5cUoorw" />
@@ -103,7 +65,7 @@ function Home() {
         </div>
         </div>
 
-        <div className="service-blurb">**Make-up artist and hair available upon request for additional charge.**</div>
+        <div className="service-blurb">**Make-up artist and hair stylist available upon request for additional charge.**</div>
 
       </div>
 
