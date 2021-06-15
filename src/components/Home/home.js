@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import SalePhoto from '../../assets/photos/summer-sale-gif-01.png';
+import SaleGif from '../../assets/photos/final-summer-sale-gif.gif';
 import ChrisPic from '../../assets/photos/chrispic.jpg';
 import Allphotos from '../../assets/photos/Allphotosforwebsite.jpg';
 import YoutubeEmbed from '../YoutubeEmbedded.js/YoutubeEmbedded.js';
@@ -9,7 +9,7 @@ import '../YoutubeEmbedded.js/YoutubeEmbedded.css';
 function Home() {
   return (
     <div className="home-container">
-      <img className="sale-section" src={SalePhoto} alt=""></img>
+      <img className="sale-section" src={SaleGif} alt=""></img>
       <div className="photography-section">
         <img className="all-photos" src={Allphotos} alt=""></img>
       </div>
