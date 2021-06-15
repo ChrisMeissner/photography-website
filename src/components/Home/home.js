@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import SalePhoto from '../../assets/photos/summer-sale-gif-all-41_1.gif';
+import SalePhoto from '../../assets/photos/summer-sale-gif-01.png';
 import ChrisPic from '../../assets/photos/chrispic.jpg';
 import Allphotos from '../../assets/photos/Allphotosforwebsite.jpg';
 import YoutubeEmbed from '../YoutubeEmbedded.js/YoutubeEmbedded.js';
