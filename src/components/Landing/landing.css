@@ -35,10 +35,10 @@
   }
   
   .polaroid-white {
+    width: 100%;
+    opacity: 1;
     position: absolute;
     bottom: 2em;
-    width: 25em;
-    opacity: 1;
     transition: opacity .75s ease-in-out;
      -moz-transition: opacity .75s ease-in-out;
      -webkit-transition: opacity .75s ease-in-out;
@@ -49,10 +49,9 @@
   }
   
   .polaroid-developed {
-    position: absolute;
-    bottom: 2em;
-    width: 25em;
+    width: 100%;
     z-index: -2;
     position: absolute;
+    bottom: 2em;
   }
 }
