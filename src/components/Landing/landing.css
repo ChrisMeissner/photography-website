@@ -37,7 +37,7 @@
     width: 90%;
     opacity: 1;
     position: absolute;
-    top: 3em;
+    margin: 2em 0 0 0;
     transition: opacity .75s ease-in-out;
      -moz-transition: opacity .75s ease-in-out;
      -webkit-transition: opacity .75s ease-in-out;
@@ -48,9 +48,9 @@
   }
   
   .polaroid-developed {
+    margin: 2em 0 0 0;
     width: 90%;
     z-index: -2;
     position: absolute;
-    top: 3em;
   }
 }
