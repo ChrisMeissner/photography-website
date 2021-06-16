@@ -1,4 +1,5 @@
 .polaroid-container {
+  margin: 1em 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,6 +27,7 @@
 
 @media screen and (max-width: 480px) {
   .polaroid-container {
+    margin: 1em 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
