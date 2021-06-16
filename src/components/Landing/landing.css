@@ -31,7 +31,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 22.5% 0 0 0;
+    padding: 5em 0 0 0;
   }
   
   .polaroid-white {
@@ -39,7 +39,7 @@
     width: 90%;
     opacity: 1;
     position: absolute;
-    bottom: 2em;
+    top: 5em;
     transition: opacity .75s ease-in-out;
      -moz-transition: opacity .75s ease-in-out;
      -webkit-transition: opacity .75s ease-in-out;
@@ -54,6 +54,6 @@
     width: 90%;
     z-index: -2;
     position: absolute;
-    bottom: 2em;
+    top: 5em;
   }
 }
