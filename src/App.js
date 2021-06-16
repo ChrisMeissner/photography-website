@@ -15,9 +15,8 @@ class App extends Component {
               <Route exact path='/'> <Landing/> </Route>
               <Route exact path='/home'> <Home/> </Route>
             </Switch>
-            <footer className="footer"> 
-              chrismeissner.com is  
-              developed and maintained
+            <footer className="footer">  
+              Site developed and maintained
               by Chris Meissner &#169; 2021
             </footer>
        </Router>
